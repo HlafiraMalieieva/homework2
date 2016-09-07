@@ -1,0 +1,98 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #29333f;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+
+.modal-form{
+    margin: 10% auto;
+    padding: 0;
+    box-sizing: border-box;
+    width:630px;  
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    color: #29333f;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:-15px 20px 0 0 #1a2128;
+    
+}
+
+.modal-form .header,
+.modal-form .content{
+    padding:20px ;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+   
+}
+
+.modal-form .header{
+    
+    font-size: 20px;
+    border-bottom: 2px solid #ecf0f1;   
+        
+}
+
+.modal-form .header .top-btn{
+    float:right;
+    margin-top: -10px; 
+    font-size: 15px;
+    color: #bdc3c7;
+    cursor: pointer;
+}
+
+.modal-form .header .top-btn:hover{
+    color: black;
+}
+
+
+
+
+.modal-form .content{
+    padding-bottom: 40px;
+    padding-right: 30px;
+    text-align: left;
+    line-height: 1.5;
+     color: #818992;
+    
+}
+
+.modal-form .content span{
+    color: #47ac96;
+}
+
+
+.modal-form .footer{
+    padding: 5px 25px;
+    display: table;
+    width: 100%;
+    background-color: #ecf0f1;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.modal-form .footer .btn{
+    margin:20px 10px 20px 0;
+    float: right;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    background-color: #bdc3c7;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-form .footer .btn.active{
+    background-color: #1abc9c;
+    box-shadow: 0 2px 0 0 #24a58c;
+    
+}
+
+
+
